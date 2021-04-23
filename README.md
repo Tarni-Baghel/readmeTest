@@ -75,7 +75,7 @@ After successful login dashboard screen will look like:
 
 ## How to use API Base url
 ```sh
-Add API_DEV_URL=<api_url> on .env file
+Add REACT_APP_API_DEV_URL=<api_server_url> on .env file
 ```
 
 ## Useful links
