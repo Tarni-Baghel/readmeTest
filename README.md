@@ -53,11 +53,11 @@ We are using react js library for creating front-end UI. Here is the list of maj
   ```
 Verify the deployment 
 ```sh
-Navigate to [http://localhost:3000](http://localhost:3000). The app will automatically reload if you change any of the source files.
+Navigate to [http://localhost:3000]. The app will automatically reload if you change any of the source files.
 ```
 
 Use following credentials to login:
-
+```sh
 Admin:
 Email - admin@gmail.com
 Password - 1234
@@ -65,6 +65,7 @@ Password - 1234
 Business:
 Email - business@gmail.com
 Password - 1234
+```
 
 Login screen will look like:
 ![Screenshot](https://bookingzone-bucket.s3.ap-south-1.amazonaws.com/git_images/login.png)
@@ -73,8 +74,9 @@ After successful login dashboard screen will look like:
 ![Screenshot](https://bookingzone-bucket.s3.ap-south-1.amazonaws.com/git_images/successfullogin.png)
 
 ## How to use API Base url
-
+```sh
 Add API_DEV_URL=<api_url> on .env file
+```
 
 ## Useful links
 Here is the links
