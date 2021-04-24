@@ -1,4 +1,4 @@
-# BookingZone Progressive web application (PWA)
+# BookingZone Admin App
 BookingZone’s wants to create a premier platform for multi-entertainment facilities to manage their entertainment options and connect with their consumers.  BookingZone’s Multi-tainment Centre Management System (MCMS) shall provide convenience for vendors to manage their entertainment options and allows consumers the ability to schedule, book and pay for the services.  By connecting consumers directly with venues that have the entertainment options they are looking for and allowing them to have control over their entertainment options.  For the vendor, BookingZone’s MCMS shall allow less time managing schedules, events and payments and allows them more to focus on revenue generating activities.
 
 ## Front-End Technology
@@ -55,6 +55,10 @@ Verify the deployment
 ```sh
 Navigate to [http://localhost:3000]. The app will automatically reload if you change any of the source files.
 ```
+## How to use API Base url
+```sh
+Add REACT_APP_API_DEV_URL=<api_server_url> on .env file
+```
 
 Use following credentials to login:
 ```sh
@@ -72,11 +76,6 @@ Login screen will look like:
 
 After successful login dashboard screen will look like:
 ![Screenshot](https://bookingzone-bucket.s3.ap-south-1.amazonaws.com/git_images/successfullogin.png)
-
-## How to use API Base url
-```sh
-Add REACT_APP_API_DEV_URL=<api_server_url> on .env file
-```
 
 ## Useful links
 Here is the links
