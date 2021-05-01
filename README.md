@@ -56,11 +56,16 @@ Navigate to [http://localhost:3000]. The app will automatically reload if you ch
   ~bz-admin-app $ npm run build
   ```
 How to deploy
-```sh
+
 1 Manual deployment
+```sh
 After successful build creation copy build folder on S3 bucket
+```
+
+OR
 
 2 Using AWS cli
+```sh
 step1: Install aws cli
 [https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html]
 
