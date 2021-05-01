@@ -59,7 +59,7 @@ How to deploy
 
 - Manual deployment
 ```sh
-After successful build creation copy build folder on S3 bucket
+After successful build creation copy build folder of your project on AWS S3 bucket
 ```
 
 OR
