@@ -57,22 +57,24 @@ Navigate to [http://localhost:3000]. The app will automatically reload if you ch
   ```
 How to deploy
 
-1 Manual deployment
 ```sh
+1 Manual deployment
+
 After successful build creation copy build folder on S3 bucket
 ```
 
 OR
 
-2 Using AWS cli
 ```sh
+2 Using AWS cli
+
 step1: Install aws cli
-[https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html]
+[https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html] you can install according to your platform
 
 step2: AWS configure
 
-step3: use cmd
-aws s3 sync build/ s3://your-bucket-name
+step3: Use this command to deploy:
+ ~bz-admin-app $ aws s3 sync build/ s3://your-bucket-name
 ```
 
 ## How to update API url (Update .env file)
