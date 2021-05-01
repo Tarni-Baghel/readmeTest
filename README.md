@@ -47,17 +47,32 @@ We are using react js library for creating front-end UI. Here is the list of maj
   ```sh
   ~bz-admin-app $ npm start
    ```
+Verify the development 
+```sh
+Navigate to [http://localhost:3000]. The app will automatically reload if you change any of the source files.
+```
 - For build the project
   ```sh
   ~bz-admin-app $ npm run build
   ```
-Verify the deployment 
+How to deploy
 ```sh
-Navigate to [http://localhost:3000]. The app will automatically reload if you change any of the source files.
+1 Manual deployment
+After successful build creation copy build folder on S3 bucket
+
+2 Using AWS cli
+step1: Install aws cli
+[https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html]
+
+step2: AWS configure
+
+step3: use cmd
+aws s3 sync build/ s3://your-bucket-name
 ```
-## How to use API Base url
+
+## How to update API url (Update .env file)
 ```sh
-Add REACT_APP_API_DEV_URL=<api_server_url> on .env file
+REACT_APP_API_DEV_URL=<api_server_url>
 ```
 
 Use following credentials to login:
