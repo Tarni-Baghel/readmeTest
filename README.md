@@ -57,17 +57,15 @@ Navigate to [http://localhost:3000]. The app will automatically reload if you ch
   ```
 How to deploy
 
+- Manual deployment
 ```sh
-1 Manual deployment
-
 After successful build creation copy build folder on S3 bucket
 ```
 
 OR
 
+- Using AWS cli
 ```sh
-2 Using AWS cli
-
 step1: Install aws cli
 [https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html] you can install according to your platform
 
